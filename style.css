@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("banner.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -257,51 +257,24 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-/* .services, .teams{
-    color:#fff;
-    background: #111;
+/* Projects section styling */
+.projects .title::after {
+    content: "what I built";
 }
-.services .title::before,
-.teams .title::before{
-    background: #fff;
+.projects .projects-content .project {
+    margin-bottom: 30px;
 }
-.services .title::after,
-.teams .title::after{
-    background: #111;
-    content: "what i provide";
-}
-.services .serv-content .card{
-    width: calc(33% - 20px);
-    background: #222;
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.services .serv-content .card:hover{
-    background: crimson;
-}
-.services .serv-content .card .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card i{
-    font-size: 50px;
+.projects .projects-content .project h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
     color: crimson;
-    transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
-    color: #fff;
+.projects .projects-content .project p {
+    font-size: 18px;
+    text-align: justify;
 }
-.services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-} */
+
 
 /* skills section styling */
 
@@ -312,7 +285,7 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
 }
